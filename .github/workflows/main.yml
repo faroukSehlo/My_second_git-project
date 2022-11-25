@@ -10,10 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'testing github action'
+      - name: 'testing folder content'
                   
-        run: pwd
-
-      - name: 'print github action'
-                  
-        run: echo farouk
+        run: ls
