@@ -13,3 +13,5 @@ jobs:
       - name: 'testing folder content'
                   
         run: ls
+
+      -uses: actions/chekout@v3  
