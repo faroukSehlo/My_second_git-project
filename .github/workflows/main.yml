@@ -14,4 +14,4 @@ jobs:
                   
         run: ls
 
-      -uses: actions/chekout@v3  
+      -uses: actions/checkout@v3  
