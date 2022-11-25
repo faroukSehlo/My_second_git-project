@@ -10,12 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'testing github action'
-                  
-        run: pwd
-
-      - name: 'print folder content'
-                  
-        run: ls 
+      
 
       - uses: actions/checkout@v3
+      - name: "login to dockerhup"
+        run: docker login --username farouksehlo --password 123456789
