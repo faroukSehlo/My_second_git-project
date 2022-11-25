@@ -1,4 +1,3 @@
-
 on:
   push:
     branches:
@@ -11,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: 'testing git hup action'
-
+      - name: 'testing github action'
+                  
         run: pwd
 
-      -name: 'print git hup action'
-
-        run: echo farouksehlo
+      - name: 'print github action'
+                  
+        run: echo farouk
