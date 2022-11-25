@@ -1,1 +1,20 @@
 
+on:
+  push:
+    branches:
+      - master
+
+
+
+jobs:
+  bulid:
+    runs-on: ubuntu-latest
+
+    steps:
+      -name: 'testing git hup action'
+
+        run: pwd
+
+      -name: 'print git hup action'
+
+        run: echo farouksehlo
